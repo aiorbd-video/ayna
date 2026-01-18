@@ -1,4 +1,4 @@
-Aexport async function onRequest({ request }) {
+export async function onRequest({ request }) {
   const ua = request.headers.get("user-agent") || "";
 
   // ❌ Block all browsers
